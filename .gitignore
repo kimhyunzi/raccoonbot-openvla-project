@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+!results/logs/
+!results/logs/*.log
+
+# Large generated datasets
+raccoon_grasp_colored_cylinder/
+openvla_rlds_intermediate/
+tensorflow_datasets/
+*.tfrecord*
+*.jsonl
+
+# Model checkpoints / adapters
+openvla-runs/
+openvla-adapter-tmp/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Cache
+.cache/
+huggingface/
+wandb/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
