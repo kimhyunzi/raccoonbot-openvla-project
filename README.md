@@ -1,3 +1,5 @@
+
+
 # RaccoonBot OpenVLA Multi-task Manipulation
 
 본 프로젝트는 RaccoonBot 로봇팔에 OpenVLA 기반 Vision-Language-Action 모델을 적용하여, 자연어 명령에 따라 다양한 물체 조작 동작을 수행하도록 확장한 프로젝트이다.
@@ -21,7 +23,6 @@ https://github.com/user-attachments/assets/GRASP_VIDEO_ID
 또는 repository 내부 영상 파일을 사용할 경우:
 
 ```markdown
-<video src="assets/videos/grasp.mp4" controls width="600"></video>
 ```
 
 ### 2. Lift
