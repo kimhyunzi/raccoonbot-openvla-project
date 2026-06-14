@@ -1,0 +1,6 @@
+mujoco
+numpy
+requests
+Pillow
+sshtunnel
+roboid

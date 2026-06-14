@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+conda_env/
+
+# Logs
+*.log
+logs/
+wandb/
+runs/
+
+# Dataset outputs
+dataset/
+datasets/
+raccoon_dataset/
+openvla_rlds_intermediate/
+tensorflow_datasets/
+
+# Model weights / checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+openvla-runs/
+openvla-adapter-tmp/
+checkpoint_snapshots/
+checkpoint-*/
+
+# Rollout outputs
+rollout_outputs/
+rollout_outputs_enhanced/
+episode_*/
+action_trace.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
